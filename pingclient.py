@@ -21,10 +21,9 @@ while i <= 10:
         
         s.settimeout(1)
         data, addr = s.recvfrom(1024)
-        print("Hello")
         t_f = time.time()
         t_e = t_f - t_i
-        print(data + " " + i + " " + t_e)
+        print("{} {} {}".format(data, i, t_e))
     
     except:
         print("Request timed out")
