@@ -4,8 +4,8 @@
 
 Simulates packet loss of a client-server interaction using UDP (User Datagram Protocol)
 
--pingclient.py: Host and port number entered by user to send 10 ping messages to server
--pingserver.py: Port number of 8888 assigned to server socket. 4/11 packets are dropped
+pingclient.py: Host and port number entered by user to send 10 ping messages to server
+pingserver.py: Port number of 8888 assigned to server socket. 4/11 packets are dropped
 
 ## 02 SMTP
 
